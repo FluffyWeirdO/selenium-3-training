@@ -25,7 +25,7 @@ public class RandomTest {
     }
 
     @Test
-    public void shouldSearchForTrainings() {
+    public void shouldPerformSearch() {
         driver.get("http://amazon.de/");
         driver.findElement(By.id("twotabsearchtextbox")).sendKeys("iphone" + Keys.RETURN);
         wait.until(visibilityOf(driver.findElement(By.id("resultsCol"))));
