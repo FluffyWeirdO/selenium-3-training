@@ -14,8 +14,9 @@ public class BaseTest {
 
     @Before
     public void start() {
-        System.setProperty("webdriver.chrome.driver", "/Users/fluffyweirdo/Tools/selenium_drivers/chromedriver");
         driver = new ChromeDriver();
+//        driver = new FirefoxDriver();
+//        driver = new SafariDriver();
         wait = new WebDriverWait(driver, 10);
     }
 
