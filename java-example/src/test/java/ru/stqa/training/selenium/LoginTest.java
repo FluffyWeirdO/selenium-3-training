@@ -8,7 +8,7 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOf;
 
 public class LoginTest extends BaseTest {
 
-    private String url = "http://localhost:8080/litecart/admin";
+    private String url = "http://localhost/litecart/admin";
 
     private String userName = "admin";
 

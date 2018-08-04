@@ -15,9 +15,9 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOf;
 
 public class SortingTest extends BaseTest {
 
-    private String urlCountries = "http://localhost:8080/litecart/admin/?app=countries&doc=countries";
+    private String urlCountries = "http://localhost/litecart/admin/?app=countries&doc=countries";
 
-    private String urlGeo = "http://localhost:8080/litecart/admin/?app=geo_zones&doc=geo_zones";
+    private String urlGeo = "http://localhost/litecart/admin/?app=geo_zones&doc=geo_zones";
 
     private String userName = "admin";
 

@@ -9,7 +9,7 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOf;
 
 public class ListItemsTest extends BaseTest {
 
-    private String url = "http://localhost:8080/litecart/admin";
+    private String url = "http://localhost/litecart/admin";
 
     private String userName = "admin";
 

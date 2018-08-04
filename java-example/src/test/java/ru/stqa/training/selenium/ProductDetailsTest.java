@@ -12,7 +12,7 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElemen
 
 public class ProductDetailsTest extends BaseTest {
 
-    private String url = "http://localhost:8080/litecart/";
+    private String url = "http://localhost/litecart/";
 
     private By mainDiv = By.id("main");
 
